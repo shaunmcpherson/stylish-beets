@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  padding: 0;
-  margin: 0;
   background-color: #c9b5ab;
 }
 
@@ -25,6 +23,7 @@ h1 {
   color: #3f1622;
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
+  margin-top: 1em;
 }
 
 h2 {
@@ -52,6 +51,7 @@ nav > ol > li {
   padding: 0;
   font-size: 1.25rem;
   line-height: 1.25em;
+  font-weight: normal;
   font-family: "PT Sans", sans-serif;
   list-style-type: none;
 }
