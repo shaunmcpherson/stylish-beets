@@ -19,6 +19,12 @@ header {
   margin: 0;
 }
 
+h1 {
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
+}
+
 h2 {
   color: #3f1622;
   font-size: 1.5rem;
@@ -27,14 +33,16 @@ h2 {
 
 a {
   color: #8f2440;
+  text-decoration: none;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: none;
 }
 
-nav, figure {
-  margin: 0 2rem;
+figure {
+  margin: 0 2.5rem;
 }
 
 nav > ul > li {
@@ -44,7 +52,6 @@ nav > ul > li {
   line-height: 1.25em;
   font-family: "PT Sans", sans-serif;
   list-style-type: none;
-  text-decoration: none;
 }
 
 figure > img {
@@ -69,7 +76,7 @@ blockquote {
 }
 
 blockquote > cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 h2 > ol {
@@ -85,14 +92,14 @@ h2 > dt {
 }
 
 h2 > dd {
-  margin: 0 2rem;
+  margin: 0 2.5rem;
 }
 
 h2 > ul > li {
   list-style-type: circle;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
